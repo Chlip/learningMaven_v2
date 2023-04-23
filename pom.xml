@@ -15,7 +15,9 @@
     <module>delivery</module>
     <module>integration-module</module>
     <module>common-module</module>
-    <module>deliver-admin</module>
+    <module>delivery-admin</module>
+
+
 
   </modules>
 

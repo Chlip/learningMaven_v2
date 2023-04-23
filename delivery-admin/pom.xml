@@ -7,16 +7,21 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>deliver-admin</artifactId>
-    <packaging>jar</packaging>
+    <groupId>org.example.admin</groupId>
+    <artifactId>delivery-admin</artifactId>
+    <packaging>pom</packaging>
 
-    <name>deliver-admin</name>
+    <name>delivery-admin</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <modules>
+        <module>application</module>
+        <module>domain</module>
+        <module>infrastructure</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
